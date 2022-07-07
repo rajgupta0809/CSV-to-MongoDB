@@ -7,15 +7,18 @@ var empSchema = new mongoose.Schema(
     },
     Email: {
       type: String,
+      unique: True,
     },
     Mobile: {
       type: Number,
+      unique: True,
     },
     DOB: {
       type: Number,
     },
     Resume: {
       type: String,
+      unique: True,
     },
     WorkEX: {
       type: Number,
@@ -25,6 +28,7 @@ var empSchema = new mongoose.Schema(
     },
     Address: {
       type: String,
+      unique: True,
     },
     CDesgination: {
       type: String,
